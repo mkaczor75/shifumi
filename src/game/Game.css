@@ -1,0 +1,46 @@
+.game {
+    height: 100vh;
+    display: flex;
+    width: 100%;
+}
+
+.game__size {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.game__pic__container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000; 
+}
+
+.game__pic__container > img {
+    width: 550px;
+    display: block; 
+}
+
+.game__pics {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.game__pics > img {
+    width: 250px;
+}
+
+.game__button {
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+
+.game__button > button {
+    margin: 10px;
+}
